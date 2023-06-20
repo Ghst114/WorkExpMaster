@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
 import data from './data.json';
-import DataItem from './DataItem';
+import DataItemList from './DataItemList';
 
 function List (){
-    const [itemNo] = useState(5);
- <div>
-    <img src= {"hammer_medium.jpg"} alt="hammermedium" ></img>
- </div>
- 
+
  return(<div> 
- <DataItem product={data[itemNo]}/> 
- <button><img src= {"hammer_medium.jpg"} alt="hammermedium" ></img></button>
+ {data.map((item,index)=>{
+ return <DataItemList product={item}/>
+    })}
  </div>);
 }
 
