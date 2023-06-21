@@ -4,17 +4,17 @@ function DataItemList({product}) {
 
   return (
      <div>
-      <header classname='DataItemList'>
+      <header className='DataItemList'>
            <img src={`../img/${product.pic}`} alt="product pic" />
-               <table>
-                 <p>Name: {product.name}</p>
-                 <p>Size: {product.size}</p>
-                 <p>Department: {product.department}</p>
-                 <p>Price: £{product.price.toFixed(2)}</p>
-               </table>
+               <table><tbody>
+                 <tr>Name: {product.name}</tr>
+                 <tr>Size: {product.size}</tr>
+                 <tr>Department: {product.department}</tr>
+                 <tr>Price: £{product.price.toFixed(2)}</tr>
+                 </tbody></table>
       </header>
 </div> 
   );
 }
 
-export default DataItemList; 
+export default DataItemList;

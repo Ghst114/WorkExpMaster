@@ -4,6 +4,7 @@ import './App.css';
 import DataTable from './DataTable.js'
 import Dropdown from './Dropdown';
 import List from './List';
+import Gallery from './Gallery';
 
 function App() {
   const [selectedoption, setSelectedoption] = useState('Individual');
@@ -15,7 +16,7 @@ function App() {
         <viewselecter> 
         {selectedoption === "Individual" ? <DataTable/>: null}
         {selectedoption === "List" ? <List/>: null}
-        {selectedoption === "Gallery" ? <p>{selectedoption}</p>: null}
+        {selectedoption === "Gallery" ? <Gallery/>: null}
         </viewselecter>
       </header>
         <Dropdown selectedoption={selectedoption} setSelectedoption = {setSelectedoption}/>
