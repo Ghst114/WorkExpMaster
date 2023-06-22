@@ -12,6 +12,9 @@ function DataTable() {
     {
       setItemNo(itemNo+1);
     }
+    else {
+      setItemNo(0)
+    }
   }
 
   function previousPage() 
@@ -19,6 +22,9 @@ function DataTable() {
    if (itemNo -1 >= 0)
    {
     setItemNo(itemNo-1);
+   }
+   else {
+    setItemNo(data.length - 1)
    }
   }
 
@@ -29,7 +35,7 @@ function DataTable() {
 
   function lastPage() 
   {
-    setItemNo(5);
+    setItemNo(data.length - 1);
   }
 
   return (<div>

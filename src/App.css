@@ -36,8 +36,8 @@ h1 {
   flex-direction: row;
 }
 
-.DataItemGallery {
-  
+img {
+  border: 1px solid black;
 }
 
 @keyframes App-logo-spin {
