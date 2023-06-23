@@ -1,4 +1,4 @@
-import data from './data.json'
+import data from './data.json';
 
 function SortAZ() { 
     data.sort((a, b) => {

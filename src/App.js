@@ -1,7 +1,7 @@
 import React, { useState, useEffect, ReactDOM } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DataTable from './DataTable.js'
+import DataTable from './DataTable.js';
 import Dropdown from './Dropdown';
 import List from './List';
 import Gallery from './Gallery';
@@ -11,7 +11,7 @@ import SortZA from './SortZA';
 import SortAZCategory from './SortAZCategory';
 import SortZACategory from './SortZACategory';
 import SortAZPrice from './SortAZPrice';
-import SortZAPrice from './SortZAPrice'
+import SortZAPrice from './SortZAPrice';
 
 function App() {
   const [selectedoption, setSelectedoption] = useState("Individual");

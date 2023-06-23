@@ -2,5 +2,5 @@
  { "name": "Large Hammer",      "pic": "hammer_lerge.jpg",       "size": "Large",   "category": "Hammer", "department": "Tools", "price": 18.50},
  { "name": "Small Screwdriver", "pic": "screwdriver_small.jpg",  "size": "Small",   "category": "Screwdriver", "department": "Tools", "price": 3.00},
  { "name": "Medium Screwdriver", "pic": "screwdriver_medium.jpg", "size": "Medium",  "category": "Screwdriver", "department": "Tools", "price": 4.00},
- { "name": "Large Screwdriver", "pic": "Large_Screwdriver.jpg", "size": "Large",  "category": "Screwdriver", "department": "Tools", "price": 4.00},
+ { "name": "Large Screwdriver", "pic": "screwdriver_large.jpg", "size": "Large",  "category": "Screwdriver", "department": "Tools", "price": 4.00},
  { "name": "Screwdriver Set", "pic": "screwdriver_set.jpg", "size": "Set",  "category": "Screwdriver", "department": "Tools", "price": 23.45}]

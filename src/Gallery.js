@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import data from './data.json'
-import DataTable from './DataTable';
+import React from 'react';
+import data from './data.json';
 
 function Gallery (){
 
@@ -10,10 +9,10 @@ function Gallery (){
 
         if (lastIndex >= 3 && remainder === 0)
             return (<tr index = {lastIndex}>
-                        <td><button><img src={`../img/${data[lastIndex - 3].pic}`} alt="product pic"/></button></td>
-                        <td><button><img src={`../img/${data[lastIndex - 2].pic}`} alt="product pic"/></button></td>
-                        <td><button><img src={`../img/${data[lastIndex - 1].pic}`} alt="product pic"/></button></td>
-                        <td><button><img src={`../img/${data[lastIndex - 0].pic}`} alt="product pic"/></button></td>
+                        <td><img src={`../img/${data[lastIndex - 3].pic}`} alt="product pic"/></td>
+                        <td><img src={`../img/${data[lastIndex - 2].pic}`} alt="product pic"/></td>
+                        <td><img src={`../img/${data[lastIndex - 1].pic}`} alt="product pic"/></td>
+                        <td><img src={`../img/${data[lastIndex - 0].pic}`} alt="product pic"/></td>
                     </tr>)
 
         if ((lastIndex + 1) === data.length)                
