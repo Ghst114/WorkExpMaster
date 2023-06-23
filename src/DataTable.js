@@ -12,9 +12,11 @@ function DataTable() {
     {
       setItemNo(itemNo+1);
     }
+    
     else {
       setItemNo(0)
     }
+    
   }
 
   function previousPage() 

@@ -9,6 +9,7 @@ function DataItemList({product}) {
                <table><tbody>
                  <tr>Name: {product.name}</tr>
                  <tr>Size: {product.size}</tr>
+                 <tr>Category: {product.category}</tr>
                  <tr>Department: {product.department}</tr>
                  <tr>Price: £{product.price.toFixed(2)}</tr>
                  </tbody></table>

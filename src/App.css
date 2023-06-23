@@ -33,11 +33,7 @@ h1 {
 
 .DataItemList {
   display: flex;
-  flex-direction: row;
-}
-
-img {
-  border: 1px solid black;
+  flex-direction: column
 }
 
 @keyframes App-logo-spin {
